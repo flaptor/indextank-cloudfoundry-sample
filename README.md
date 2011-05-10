@@ -1,7 +1,8 @@
 IndexTank CloudFoundry Sample
 =============================
 
-This is a sample app, that can index random documents on an IndexTank instance provided by CloudFoundry.
+This is a sample app, that indexes a random document  on an IndexTank instance provided by CloudFoundry.
+If you are building a CloudFoundry app and need indextank support, just look at the **before** block.
 
 Usage
 -----
