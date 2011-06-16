@@ -14,7 +14,7 @@ before do
         @itc = IndexTank::Client.new(creds['INDEXTANK_PRIVATE_API_URL'])
 
         # and assume you have just one index.
-        @index = @itc.indexes(creds["INDEXTANX_INDEX_NAMES"][0])
+        @index = @itc.indexes(creds["INDEXTANK_INDEX_NAMES"][0])
     end
 end
 
